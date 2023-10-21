@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "SF-Pro-Display-Regular";
+  src: url(./SF-Pro-Display-Regular.woff) format("woff"),
+    url(./SF-Pro-Display-Regular.woff2) format("woff2");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+}
+/* MAIN CLASS */
+.input-form {
+  border-radius: 2px;
+  border: 1px solid #d9d9d9;
+  color: #bfbfbf;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0px 0px 0px 35px;
+}
+.button {
+  font-family: "SF-Pro-Display-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 8px 16px 8px 16px;
+}
+/* MAIN CLASS */
+
+/* HEADER */
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 44px 0px 0px 0px;
+}
+.header__input {
+  width: 690px;
+  height: 40px;
+  background: url("../img/home.svg") no-repeat 10px center, #fff;
+}
+/* .header__buttons {
+  padding: 0px 10px 0px 0px;
+} */
+.button_blue {
+  border-radius: 2px;
+  background: #1890ff;
+  border: none;
+  color: #fff;
+}
+.button_white {
+  border-radius: 2px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  color: #595959;
+}
+.user {
+  vertical-align: middle;
+}
+.shopping-cart {
+  vertical-align: middle;
+}
+/* HEADER */
