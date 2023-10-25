@@ -12,7 +12,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css\reset.min.css">
-  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css\common.css">
+  <link rel="stylesheet" href="css\style.home.page.css">
+  <link rel="stylesheet" href="css\adaptability.responsive.css">
   <title>Delivery Food</title>
 </head>
 
@@ -20,7 +22,9 @@
   <header>
     <div class="container">
       <div class="header">
-        <img src="img\logo.svg" alt="logo" class="logo">
+        <a href="index.html" class="logo">
+          <img src="img\logo.svg" alt="logo">
+        </a>
         <input class="header__input input-form" placeholder="Адрес доставки"></input>
         <div class="header__buttons">
           <button class="button button_blue">
@@ -46,130 +50,131 @@
       </div>
       <div class="restaurants">
         <div class="restaurants__headding">
-          <h2 class="restaurants__title">Рестораны</h2>
+          <h2 class="restaurants__title title-section">Рестораны</h2>
           <input class="restaurants__input input-form" placeholder="Поиск блюд и ресторанов"></input>
         </div>
-        <div class="restaurants__columns">
 
-          <div class="restaurants__card">
+        <div class="restaurants__columns columns">
+
+          <a href="restaurants.html" class="restaurants__card card">
             <div class="restaurants__container-image">
-              <img src="img\restaurants\res-1.png" alt="" class="restaurants__image">
+              <img src="img\restaurants\res-1.png" alt="" class="restaurants__image card-image">
             </div>
-            <div class="restaurants__content">
-              <div class="restaurants__card-headding">
+            <div class="restaurants__content card-content">
+              <div class="restaurants__card-headding card-headding">
                 <h3 class="restaurants__name">Пицца плюс</h3>
                 <span class="restaurants__time-to-delivery">50 мин</span>
               </div>
-              <div class="restaurants__info">
-                <div class="restaurants__rating">
-                  <img src="img\star.svg" alt="" class="restaurants__star">
-                  <span class="restaurants__rating-text">4.5</span>
+              <div class="restaurants__info card-info">
+                <div class="restaurants__rating rating">
+                  <img src="img\star.svg" alt="" class="restaurants__rating-star">
+                  <span class="restaurants__rating-text rating-text">4.5</span>
                 </div>
-                <div class="restaurants__price">От 900 ₽</div>
-                <div class="restaurants__food">Пицца</div>
+                <div class="restaurants__price price">От 900 ₽</div>
+                <div class="restaurants__food food">Пицца</div>
               </div>
             </div>
-          </div>
+          </a>
 
-          <div class="restaurants__card">
+          <a href="#" class="restaurants__card card">
             <div class="restaurants__container-image">
-              <img src="img\restaurants\res-2.png" alt="star" class="restaurants__image">
+              <img src="img\restaurants\res-2.png" alt="star" class="restaurants__image card-image">
             </div>
-            <div class="restaurants__content">
-              <div class="restaurants__card-headding">
+            <div class="restaurants__content card-content">
+              <div class="restaurants__card-headding card-headding">
                 <h3 class="restaurants__name">Тануки</h3>
                 <span class="restaurants__time-to-delivery">50 мин</span>
               </div>
-              <div class="restaurants__info">
-                <div class="restaurants__rating">
+              <div class="restaurants__info card-info">
+                <div class="restaurants__rating rating">
                   <img src="img\star.svg" alt="star" class="restaurants__star">
-                  <span class="restaurants__rating-text">4.5</span>
+                  <span class="restaurants__rating-text rating-text">4.5</span>
                 </div>
-                <div class="restaurants__price">От 900 ₽</div>
-                <div class="restaurants__food">Суши, роллы</div>
+                <div class="restaurants__price price">От 900 ₽</div>
+                <div class="restaurants__food food">Суши, роллы</div>
               </div>
             </div>
-          </div>
+          </a>
 
-          <div class="restaurants__card">
+          <a href="#" class="restaurants__card card">
             <div class="restaurants__container-image">
-              <img src="img\restaurants\res-3.png" alt="star" class="restaurants__image">
+              <img src="img\restaurants\res-3.png" alt="star" class="restaurants__image card-image">
             </div>
-            <div class="restaurants__content">
-              <div class="restaurants__card-headding">
+            <div class="restaurants__content card-content">
+              <div class="restaurants__card-headding card-headding">
                 <h3 class="restaurants__name">FoodBand</h3>
                 <span class="restaurants__time-to-delivery">50 мин</span>
               </div>
-              <div class="restaurants__info">
-                <div class="restaurants__rating">
+              <div class="restaurants__info card-info">
+                <div class="restaurants__rating rating">
                   <img src="img\star.svg" alt="star" class="restaurants__star">
-                  <span class="restaurants__rating-text">4.5</span>
+                  <span class="restaurants__rating-text rating-text">4.5</span>
                 </div>
-                <div class="restaurants__price">От 900 ₽</div>
-                <div class="restaurants__food">Пицца</div>
+                <div class="restaurants__price price">От 900 ₽</div>
+                <div class="restaurants__food food">Пицца</div>
               </div>
             </div>
-          </div>
+          </a>
 
-          <div class="restaurants__card">
+          <a href="#" class="restaurants__card card">
             <div class="restaurants__container-image">
-              <img src="img\restaurants\res-4.png" alt="star" class="restaurants__image">
+              <img src="img\restaurants\res-4.png" alt="star" class="restaurants__image card-image">
             </div>
-            <div class="restaurants__content">
-              <div class="restaurants__card-headding">
+            <div class="restaurants__content card-content">
+              <div class="restaurants__card-headding card-headding">
                 <h3 class="restaurants__name">Жадина-пицца</h3>
                 <span class="restaurants__time-to-delivery">50 мин</span>
               </div>
-              <div class="restaurants__info">
-                <div class="restaurants__rating">
+              <div class="restaurants__info card-info">
+                <div class="restaurants__rating rating">
                   <img src="img\star.svg" alt="star" class="restaurants__star">
-                  <span class="restaurants__rating-text">4.5</span>
+                  <span class="restaurants__rating-text rating-text">4.5</span>
                 </div>
-                <div class="restaurants__price">От 900 ₽</div>
-                <div class="restaurants__food">Пицца</div>
+                <div class="restaurants__price price">От 900 ₽</div>
+                <div class="restaurants__food food">Пицца</div>
               </div>
             </div>
-          </div>
+          </a>
 
-          <div class="restaurants__card">
+          <a href="#" class="restaurants__card card">
             <div class="restaurants__container-image">
-              <img src="img\restaurants\res-5.png" alt="star" class="restaurants__image">
+              <img src="img\restaurants\res-5.png" alt="star" class="restaurants__image card-image">
             </div>
-            <div class="restaurants__content">
-              <div class="restaurants__card-headding">
+            <div class="restaurants__content card-content">
+              <div class="restaurants__card-headding card-headding">
                 <h3 class="restaurants__name">Точка еды</h3>
                 <span class="restaurants__time-to-delivery">50 мин</span>
               </div>
-              <div class="restaurants__info">
-                <div class="restaurants__rating">
+              <div class="restaurants__info card-info">
+                <div class="restaurants__rating rating">
                   <img src="img\star.svg" alt="star" class="restaurants__star">
-                  <span class="restaurants__rating-text">4.5</span>
+                  <span class="restaurants__rating-text rating-text">4.5</span>
                 </div>
-                <div class="restaurants__price">От 900 ₽</div>
-                <div class="restaurants__food">Русская кухня</div>
+                <div class="restaurants__price price">От 900 ₽</div>
+                <div class="restaurants__food food">Русская кухня</div>
               </div>
             </div>
-          </div>
+          </a>
 
-          <div class="restaurants__card">
+          <a href="#" class="restaurants__card card">
             <div class="restaurants__container-image">
-              <img src="img\restaurants\res-6.png" alt="star" class="restaurants__image">
+              <img src="img\restaurants\res-6.png" alt="star" class="restaurants__image card-image">
             </div>
-            <div class="restaurants__content">
-              <div class="restaurants__card-headding">
+            <div class="restaurants__content card-content">
+              <div class="restaurants__card-headding card-headding">
                 <h3 class="restaurants__name">PizzaBurger</h3>
                 <span class="restaurants__time-to-delivery">50 мин</span>
               </div>
-              <div class="restaurants__info">
-                <div class="restaurants__rating">
+              <div class="restaurants__info card-info">
+                <div class="restaurants__rating rating">
                   <img src="img\star.svg" alt="star" class="restaurants__star">
-                  <span class="restaurants__rating-text">4.5</span>
+                  <span class="restaurants__rating-text rating-text">4.5</span>
                 </div>
-                <div class="restaurants__price">От 900 ₽</div>
-                <div class="restaurants__food">Пицца</div>
+                <div class="restaurants__price price">От 900 ₽</div>
+                <div class="restaurants__food food">Пицца</div>
               </div>
             </div>
-          </div>
+          </a>
 
         </div>
       </div>
