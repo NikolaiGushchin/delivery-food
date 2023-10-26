@@ -24,11 +24,11 @@
         </a>
         <input class="header__input input-form" placeholder="Адрес доставки"></input>
         <div class="header__buttons">
-          <button class="button button_blue">
+          <button class="header__button-account button button_blue">
             <img src="img\user.svg" alt="user" class="user">
             <span>Войти</span>
           </button>
-          <button class="button button_white">
+          <button class="header__button-cart button button_white">
             <img src="img\shopping-cart.svg" alt="" class="shopping-cart">
             <span>Корзина</span>
           </button>
@@ -199,6 +199,55 @@
       </div>
     </div>
   </footer>
+
+  <div class="modal modal_is-open">
+    <div class="modal__dialog">
+      <div class="modal__headding">
+        <div class="modal__title title-section">Корзина</div>
+        <button class="modal__button-close button">&times;</button>
+      </div>
+      <div class="modal__content">
+        <div class="modal__row">
+          <div class="modal__text">Ролл угорь стандарт</div>
+          <div class="modal__price">250 ₽</div>
+          <div class="modal__counter">
+            <button class="modal__counter-button button">-</button>
+            <span class="modal__counter-number">1</span>
+            <button class="modal__counter-button button">+</button>
+          </div>
+        </div>
+
+        <div class="modal__row">
+          <div class="modal__text">Ролл угорь стандарт</div>
+          <div class="modal__price">250 ₽</div>
+          <div class="modal__counter">
+            <button class="modal__counter-button button">-</button>
+            <span class="modal__counter-number">1</span>
+            <button class="modal__counter-button button">+</button>
+          </div>
+        </div>
+
+        <div class="modal__row">
+          <div class="modal__text">Ролл угорь стандарт</div>
+          <div class="modal__price">250 ₽</div>
+          <div class="modal__counter">
+            <button class="modal__counter-button button">-</button>
+            <span class="modal__counter-number">1</span>
+            <button class="modal__counter-button button">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="modal__footer">
+        <span class="modal__pricetag">1250 ₽</span>
+        <div class="modal__footer-buttons">
+          <button class="modal__button-order button button_blue">Оформить заказ</button>
+          <button class="modal__button-cancel button button_white">Отмена</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js\main.js"></script>
 
 </body>
 
