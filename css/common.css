@@ -239,6 +239,7 @@ body {
 .modal__row {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 15px 0px 0px 0px;
   padding: 0px 0px 8px 0px;
@@ -271,7 +272,6 @@ body {
   margin: 53px 0px 0px 0px;
 }
 .modal__pricetag {
-  display: block;
   border-radius: 5px;
   background: #262626;
   color: #fafafa;

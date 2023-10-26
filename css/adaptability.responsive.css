@@ -122,6 +122,26 @@
     .foods__info-restaurant {
       margin: 20px 0px 0px 0px;
     }
+    .modal__footer {
+      flex-direction: column;
+    }
+    .modal__pricetag {
+      margin-left: auto;
+      font-size: 16px;
+    }
+    .modal__footer-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0px 0px 0px;
+    }
+  }
+  @media (max-width: 395px) {
+    .modal__price {
+      margin: 0;
+    }
+    .modal__counter {
+      margin: 10px 0px 0px 0px;
+    }
   }
 }
 /* RESPONSIVE */
